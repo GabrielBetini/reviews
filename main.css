@@ -61,14 +61,32 @@ img {
 }
 
 .btn-container {
+	display: flex;
 	margin-top: 20px;
 }
 
 .btn {
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 2px;
 	color: rgb(169, 97, 228);
 	font-weight: bold;
 	border: 2px solid rgba(79, 201, 250, 0.959);
 	outline: none;
 	background: rgba(226, 245, 243, 0.644);
 	padding: 3px;
+}
+
+.btn:hover {
+	color: rgba(79, 201, 250, 0.959);
+	background-color: rgba(226, 245, 243, 0.644);
+}
+
+.surprise {
+	width: 100px;
+}
+
+.next,
+.previous {
+	width: 30px;
 }
