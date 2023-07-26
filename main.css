@@ -34,7 +34,8 @@ img {
 .review {
 	background-color: white;
 	padding: 20px;
-	width: 400px;
+	margin-bottom: 50px;
+	width: 500px;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
@@ -45,11 +46,15 @@ img {
 
 .review p {
 	text-align: center;
-	margin-top: 25px;
 }
 
-.cargo {
-	font-weight: 300;
+#cargo {
+	font-weight: 400;
+	color: rgb(79, 201, 250);
+}
+
+#text {
+	margin-top: 20px;
 }
 
 .review img {
@@ -61,13 +66,13 @@ img {
 }
 
 .btn-container {
-	display: flex;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .btn {
 	cursor: pointer;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: 2px;
 	color: rgb(169, 97, 228);
 	font-weight: bold;
@@ -79,7 +84,6 @@ img {
 
 .btn:hover {
 	color: rgba(79, 201, 250, 0.959);
-	background-color: rgba(226, 245, 243, 0.644);
 }
 
 .surprise {
@@ -88,5 +92,8 @@ img {
 
 .next,
 .previous {
+	border: none;
+	font-size: 20px;
+	background: transparent;
 	width: 30px;
 }
